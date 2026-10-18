@@ -22,9 +22,9 @@ if (!isNaN(numero1)) {
                 alert ("El numero ingresado: " + numero1 + " es divisible por 7")
         }
       }
-if (((numero1 % 2) != 0) && ((numero1 % 5) != 0) && ((numero1 % 3) != 0) && ((numero1 % 7) != 0)) {
-      alert ("El numero ingresado: " + numero1 + " no es divisible ni por 2, 3, 5 y 7")
-    }
+      if (((numero1 % 2) != 0) && ((numero1 % 5) != 0) && ((numero1 % 3) != 0) && ((numero1 % 7) != 0)) {
+            alert ("El numero ingresado: " + numero1 + " no es divisible ni por 2, 3, 5 y 7")
+          }
     }
    
 else {
